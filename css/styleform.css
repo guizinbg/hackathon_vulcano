@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200&display=swap');
+
+
+body {
+  padding: 0;
+    margin: 0;
+    background-color: #780001;
+    font-family: 'Poppins', sans-serif;
+    font-style: oblique;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #780001;
+  z-index: 1000; 
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul.navbar li.logo {
+  margin-left: auto;
+}
+
+ul.navbar li.logo img {
+  height: 40px; 
+}
+
+ul.navbar li {
+  float: left;
+}
+
+ul.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navbar li a:hover {
+  background-color: #780001;
+}
+
+.chat-container {
+  max-width: 400px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 120px auto 20px; 
+  display: flex;
+  flex-direction: column;
+}
+
+.bot-message .avatar, .user-message .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.bot-message .message-content, .user-message .message-content {
+  max-width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.user-message .message-content {
+  background-color: #007BFF;
+  color: white;
+}
+
+.bot-message .message-content {
+  background-color: #E0E0E0;
+  color: black;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.response-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+}
+
+.response-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+div small{
+  color: white;
+  align-items: center;
+
+}
+.redesocial{
+  position: absolute;
+  bottom: -500px;
+}
+
+
+div img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}

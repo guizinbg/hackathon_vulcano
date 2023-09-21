@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200&display=swap');
+
+
+body 
+{
+    padding: 0;
+    margin: 0;
+    background-color: #780001;
+    font-family: 'Poppins', sans-serif;
+    font-style: oblique;      
+}
+
+.dateCalendario{
+    color: white;
+    position: relative;
+    top: 160px;
+    left: 180px;
+    font-size: 25px;
+    
+}
+
+
+
+h4
+{
+
+    color: white; 
+    font-size: 40px;
+    font-style: oblique;
+    letter-spacing: 15px;
+    left: 200px;
+    position: absolute;
+
+}
+.logo
+{
+    height: 5cm;
+    width: 10cm;    
+    bottom: -20px;
+    right: 1px;
+    margin: 0;
+    position: absolute;
+    
+
+}
+
+div small{
+    color: white;
+    align-items: center;
+
+}
+.redesocial{
+    position: absolute;
+    bottom: -700px;
+}
+
+
+div img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.card-title{
+    color: white;
+}
+.btn{
+    color: white;
+}
+.card-text {
+    color: white;
+}
+
+
+.container1{
+    display: block;
+}
+
+
+.card{
+    display:  inline-table;
+    text-transform: capitalize ;
+}
+
+
+/*Nav bar*/
+
+ ul.navbar {
+    
+
+     list-style-type: none;
+     margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #780001;
+
+}
+
+ ul.navbar li 
+ {
+
+  float: left;
+
+}
+
+ul.navbar li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover 
+{
+     background-color: #d41f1f;
+     
+}
+
+/*ÍCONES PAGINA PRINCIPAL*/
+
+.dateCalendario{
+    letter-spacing: 4px;
+}
+    
+
+
+
+
+
+
+

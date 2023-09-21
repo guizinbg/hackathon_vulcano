@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200&display=swap');
+
+
+body 
+{
+    padding: 0;
+    margin: 0;
+    background-color: #780001;
+    font-family: 'Poppins', sans-serif;
+    font-style: oblique; 
+}
+
+
+h4
+{
+
+    color: white; 
+    font-size: 40px;
+    font-style: oblique;
+    letter-spacing: 15px;
+    left: 200px;
+    position: absolute;
+
+}
+.logo
+{
+    height: 20px;
+    width: 20px;
+    height: 5cm;
+    width: 10cm;    
+    bottom: -20px;
+    right: 0;
+    margin: 0;
+    position: absolute;
+
+}
+
+
+.redesocial{
+    position: absolute;
+    bottom: 0px;
+}
+div img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.card-title{
+    color: white;
+}
+.btn{
+    color: white;
+}
+.card-text {
+    color: white;
+}
+
+
+.container1{
+    display: block;
+}
+
+
+.card{
+    display:  inline-table;
+    text-transform: capitalize ;
+}
+
+
+/*Nav bar*/
+ul.navbar {
+
+ 
+
+    list-style-type: none;
+
+    margin: 0;
+
+   padding: 0;
+
+   overflow: hidden;
+
+   background-color: #780001;
+
+
+
+}
+
+
+
+ul.navbar li
+
+{
+
+
+
+ float: left;
+
+
+
+}
+
+
+
+ul.navbar li a
+
+{
+
+   display: block;
+
+   color: white;
+
+   text-align: center;
+
+   padding: 14px 16px;
+
+   text-decoration: none;
+
+}
+
+
+ul.navbar li a:hover
+
+{
+
+    background-color: #d41f1f;
+
+    
+
+}
+
+
+
+/*Formação*/
+
+h3{
+
+    color: white; 
+    font-size: 40px;
+    font-style: oblique;
+    letter-spacing: 15px;
+    left: 200px;
+    position: relative;
+    left: 450px;
+}
+
+
+.letra{
+   
+ top: 100px;
+ 
+  }
+
+.filho{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    position:absolute;
+    top: 50px;
+    left: 450px;
+  }
+
+  .texto{
+   
+    color: white; 
+    font-size: 20px;
+    font-family: 'poppins',sans-serif;
+    font-style: oblique;
+  
+ 
+  }
+
+
+  /*Patrono da escola*/
+
+  .letra2{
+   
+    top: 100px;
+    
+     }
+   
+   .filho2{
+       display: grid;
+       place-items: center;
+       height: 100vh;
+       position:absolute;
+       top: 700px;
+       left: 450px;
+     }
+   
+
+
+  /*Patrono/foto*/
+
+.quadrado{
+    background-color: aliceblue;
+    height: 300px;
+    width: 300px;
+    top: 900px;
+    box-shadow:  15px 15px 15px #000000;
+}
+   
+.Adolpho{
+
+position: absolute;
+left: 200px;
+top: 580px;
+height: 270px;
+width: 250px;
+}
+   
+  /*Footer*/
+
+footer{
+  position: relative;
+    background-color: #fffcfc;
+    top: 1100px;
+    height: 80px;
+
+}
+
+img{
+    position: relative;
+    top: 10px;
+ 
+  
+   }
+
+
+   .patrono{
+    color: white; 
+    font-size: 40px;
+    font-style: oblique;
+    letter-spacing: 15px;
+ 
+    position: relative;
+    left: 450px;
+    top: 200px;
+   }
+
+.icone{
+    left: 300px;
+    height: 40px;
+    width: 40px;
+}
+   
+.siga{
+    color: #780001; 
+    font-size: 20px;
+    font-family: 'poppins',sans-serif;
+    font-style: oblique;
+}
+   
